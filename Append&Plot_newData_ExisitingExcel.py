@@ -84,10 +84,11 @@ def plot_data(ws, first_row_, last_row_):
 
     ws.add_chart(c1, "F2")
     ws.add_chart(c2, "F19")
-    writer.close()
+    writer.close() 
 
 
 # getting the workbook and sheet ready for appending and plotting
+# be sure that the folder which contains the excel file has writing/editing permission [else can pop up zip file error / access permission exception error]
 book = load_workbook(r'local path where excel is saved')
 writer = pd.ExcelWriter(r'local path where excel is saved', engine='openpyxl')
 writer.book = book
@@ -102,3 +103,4 @@ first_row = startrow - 13  # 3
 # give new data inputs arg1, arg2, ... through a function or raw
 append_newData_toExcel('arg1', 'arg2', 'arg3', 'arg4', writer)  # function call
 plot_data(ws, first_row, last_row)  # function call
+writer.close() # do not open the excel file manually before the script closes its writer instant...else can corrupt the excel file totally
