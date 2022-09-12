@@ -19,7 +19,8 @@ def update_key_value(file):
     with open(file) as f:
         key_value = get_key_value(file)  # function call to get the matching hash
         data = json.load(f)
-        data['schema hash'] = key_value  # the 'schema hash' could be any key name in json files that you want to change
+        data['schema hash'] = key_value  # the 'schema hash' could be any key name in json files
+        # that you want to change the value with
     temp = os.path.join(os.path.dirname(file), str(uuid.uuid4()))
     with open(temp, 'w') as f:
         json.dump(data, f, indent=4)
