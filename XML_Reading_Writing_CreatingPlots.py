@@ -44,6 +44,7 @@ with open(r"C:\Users\user1\Desktop\testfile.xml", "wb") as files:  # path with a
     tree.write(files)
 
 # Once an xml file with specific structure is created, comment out the above code for saving/writing new xml file
+# A sample xml file structure as per the code above is given in the 'wiki'
 # New variables could instead be fed into the structure and appended by the code below
 
 # APPENDING THE EXISTING XML FILE WITH NEW DATA
