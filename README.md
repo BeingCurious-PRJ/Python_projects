@@ -1,2 +1,2 @@
 # Python_projects
-Projects in Pycharm
+Codes for different functionalities involving json,xml,excel, Jfrog Artifactory etc...
