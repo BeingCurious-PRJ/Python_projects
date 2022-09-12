@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d21b2ab7-4b93-431d-a73e-e90df805b2f9" name="Default Changelist" comment="new codes_ json file updating, hash key generation">
-      <change beforePath="$PROJECT_DIR$/UpdateJson_with_newKeyValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateJson_with_newKeyValue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,6 +31,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prjbn\PycharmProjects\Python_projects" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Python10_anaconda" type="PythonConfigurationType" factoryName="Python">
@@ -77,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662970484794</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new codes_ json file updating, hash key generation">
+      <created>1662970692908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662970692908</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,8 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New file added_file deleting" />
     <MESSAGE value="folder content_files deleting" />
-    <MESSAGE value="new codes_ json file updating, hash key generation" />
     <MESSAGE value="new codes:- json file update, hash key generation (sha512)" />
-    <option name="LAST_COMMIT_MESSAGE" value="new codes:- json file update, hash key generation (sha512)" />
+    <MESSAGE value="new codes_ json file updating, hash key generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="new codes_ json file updating, hash key generation" />
   </component>
 </project>
